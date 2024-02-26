@@ -10,6 +10,7 @@ spec:
   - Ingress
   - Egress
 {{- end }}
+
 {{- if .Values.authorizationPolicies.create }}
 ---
 apiVersion: security.istio.io/v1beta1
